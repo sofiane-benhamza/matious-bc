@@ -1,0 +1,9 @@
+boto3==1.34.42
+botocore==1.34.42
+Django==5.0.2
+django_environ==0.11.2
+djangorestframework==3.14.0
+django-cors-headers==4.3.0
+django-storages==1.14.2
+psycopg2==2.9.6
+httplib2==0.22.0

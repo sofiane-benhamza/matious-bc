@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  django_app:
+    image: django:dev
+    container_name: your_django_container
+    network_mode: host
+    environment:
+      - DATABASE_NAME=postgres
+      - DATABASE_USER=sofiane_benhamza
+      - DATABASE_PASSWORD=k8WuI6Df6XanrWtoG4VR
+      - DATABASE_HOST=django.cjjmlobymkye.us-east-1.rds.amazonaws.com
+      - DATABASE_PORT=5432
+
